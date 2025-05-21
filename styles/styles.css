@@ -1,10 +1,16 @@
+:root {
+    --heading-font: Georgia, 'Times New Roman', Times, serif;
+    --heading-text-color: rgb(114, 4, 4);
+    --heading-background-color: rgb(120, 218, 246);
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--heading-text-color);
     display: block;
     padding: 20px;
 }
@@ -23,6 +29,8 @@ main img {
 
 p {
     padding: 0;
+    font-family: var(--heading-font);
+    color: var(--heading-text-color)
 }
 
 main {
@@ -34,8 +42,9 @@ aside {
     margin: 3px;
     border: 3px solid black;
     padding: 2px 10px;
-    background-color: rgb(184, 191, 60);
-    color: rgb(23, 6, 89);
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
 }
 
 aside img {
