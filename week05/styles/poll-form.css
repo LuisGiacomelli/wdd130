@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-style: italic;
+}
+
+header {
+    border: 20px;
+    margin: auto;
+}
+
+h1 {
+    color: rgba(0, 0, 255, 0.681);
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    margin: 8px;
+    padding: 15px 20px;
+    border-radius: 2rem;
+    background-color: rgb(231, 231, 231);
+    display: grid;
+    justify-self: center;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 5px;
+    margin: 15px;
+    padding: 15px;
+    /* border: solid black; */
+}
+
+legend {
+    color: rgb(29, 29, 229);
+    font-size: larger;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(78, 77, 77);
+}
+
+label {
+    text-align: right;
+    padding-right: 10px;
+}
+
+input,
+select,
+textarea {
+    padding: 5px;
+    font-size: larger;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 9px;
+    justify-self: center;
+    background-color: rgb(0, 0, 173);
+    color: white;
+    font-size: larger;
+}
+
+button:hover {
+    background-color: rgb(1, 42, 1);
+}
+
+footer {
+    border-top: solid gray;
+    text-align: center;
+    color: rgb(173, 163, 163);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 5px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 5px 0;
+}
+
+label[for="feedback"] {
+    text-align: center;
+}
