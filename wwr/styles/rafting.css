@@ -7,6 +7,7 @@
     --accent1-color: #007FE0;
     /* Argentinian blue */
     --accent2-color: #61ACE5;
+    --accent3-color: #00518f;
     --heading-font: "Kaushan Script", cursive;
     --text-font: "Montserrat", sans-serif;
 }
@@ -51,7 +52,8 @@ header img {
 
 body {
     font-family: var(--text-font);
-    color: var(--accent1-color);
+    color: var(--accent3-color);
+    /* color: black; */
     /* background-color: var(--secondary-color); */
 }
 
